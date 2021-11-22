@@ -1,6 +1,3 @@
-# This file is a part of TG-FileStreamBot
-# Coding : Jyothis Jayanth [@EverythingSuckz]
-
 from pyrogram import filters
 from WebStreamer.vars import Var
 from urllib.parse import quote_plus
