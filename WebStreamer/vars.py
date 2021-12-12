@@ -10,7 +10,7 @@ class Var(object):
     API_ID = int(getenv('API_ID'))
     API_HASH = str(getenv('API_HASH'))
     BOT_TOKEN = str(getenv('BOT_TOKEN'))
-    SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', ''))
+    SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '120'))
     WORKERS = int(getenv('WORKERS', ''))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', None))     
     PORT = int(getenv('PORT', 8080))
